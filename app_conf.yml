@@ -1,0 +1,4 @@
+events:
+  hostname: localhost     # From Docker Compose
+  port: 9092              # Kafka port exposed in Docker
+  topic: events           # Topic created in Docker Compose
